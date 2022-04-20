@@ -1,0 +1,24 @@
+.tab {
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+}
+.tab:not(.activeTab) {
+  color: #3c506f;
+}
+.tab-icon {
+  padding-right: 8px;
+  color: #4b5464;
+}
+.activeTab {
+  background: #e7ecfc;
+  border-radius: 5px 5px 0 0;
+  border-top: 1px solid #98abd1;
+  border-left: 1px solid #98abd1;
+  border-right: 1px solid #98abd1;
+  font-weight: bold;
+  color: #355b97;
+}
+.activeTab .tab-icon {
+  color: #355b97;
+}

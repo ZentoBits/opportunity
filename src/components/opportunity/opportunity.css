@@ -1,0 +1,63 @@
+/*////// HEADER //////*/
+.opportunity-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+.opportunity-header div {
+    display: flex;
+    align-items: center
+}
+.opportunity-header div h1 {
+    display: inline;
+    padding-right: 20px;
+    color: #253141;
+}
+.opportunity-header div svg {
+    color: #09b0c7;
+    font-size: 20px;
+    cursor: pointer;
+}
+.opportunity-header-button {
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+    padding: 9px 12px;
+    font-weight: bold;
+    color: #172b4e;
+    cursor: pointer;
+}
+.opportunity-header-button svg {
+    padding-right: 7px;
+    color: #09b0c7;
+}
+
+/*////// BODY //////*/
+.opportunity-tabs {
+    border-bottom: 1px solid #98abd1;
+}
+.tabs-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto -1px;
+}
+.opportunity-body {
+    background: #e7ecfc;
+}
+.opportunity-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.fifty-fifty {
+    display: flex;
+}
+.fifty-fifty > div {
+    width: 50%;
+}
+.fifty-fifty > div:first-child {
+    padding-right: 20px;
+}

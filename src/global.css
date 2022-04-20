@@ -1,0 +1,14 @@
+.pro:after {
+  position: relative;
+  content: "PRO";
+  font-size: 0.7rem;
+  margin-top: -15px;
+  margin-left: 6px;
+  background: #006dff;
+  color: white;
+  border-radius: 3px;
+  padding: 3px 6px;
+}
+.tab.pro:after {
+  position: absolute;
+}

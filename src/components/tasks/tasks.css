@@ -1,0 +1,75 @@
+.tasks-container {
+  background: white;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.tasks-title {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #e3e8f1;
+}
+.tasks-icon {
+  display: flex;
+  background: #0a8a98;
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.3rem;
+  margin-right: 20px;
+}
+.tasks-list {
+  min-height: 250px;
+}
+.tasks-table {
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+.tasks-table > tr {
+  color: #8b8e95;
+  border-bottom: 1px solid #eaeff7;
+}
+.tasks-table > tr:first-child {
+  color: #8694a9;
+  border-bottom: 2px solid #c4cee2;
+}
+th {
+  padding: 15px;
+}
+td {
+  padding: 12px 15px;
+  align-items: center;
+}
+.task-icon-warning {
+  background: #f9b895;
+  padding: 3px 7px;
+  border-radius: 5px;
+  color: white;
+  margin-right: 5px;
+}
+.task-icon-avatar {
+  color: #eae9ea;
+  margin-right: 5px;
+}
+.tasks-action {
+  text-align: right;
+  border-top: 1px solid #c4cee2;
+  padding: 20px;
+  color: #8b8e95;
+}
+.tasks-action span {
+  color: #8b8e95;
+  cursor: pointer;
+}
+.tasks-action span:hover {
+  color: #6db3bd;
+  text-decoration: underline;
+}
+.table-rows {
+  font-size: .9rem;
+}
